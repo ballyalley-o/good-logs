@@ -7,10 +7,6 @@
     "outDir": "./",
     "rootDir": "./",
     "baseUrl": "./",
-    "paths": {
-      "@*": ["./*"],
-      "@enum": ["@constant/enum"]
-    },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noResolve": false,
@@ -19,7 +15,6 @@
     "incremental": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    // "allowSyntheticDefaultImports": true,
     "strict": true
   },
   "include": ["**/*.ts", "**/*.js"],
