@@ -2,7 +2,7 @@
 
 # Good Logs
 
-This module provides a custom logger for your application. It uses the 'colors' package to colorize console output for better readability.
+Good-logs provide a custom logging for your application. It uses the 'colors' package to colorize console output for better readability.
 
 ## Usage
 
