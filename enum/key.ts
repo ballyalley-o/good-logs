@@ -2,7 +2,7 @@ enum Key {
   // @error keys
   Connected = 'CONNECTED 🟢',
   NotConnected = 'NOT CONNECTED 🔴',
-  Environment = 'ENVIRONMENT',
+  Environment = ' ENVIRONMENT: ',
   Production = 'production',
   Development = 'development',
 
@@ -10,6 +10,7 @@ enum Key {
   ReqMethod = ' Request Method: ',
   ReqURL = ' Request URL: ',
   ReqTime = ' Request Time: ',
+
   // @logger - server
   ServerPort = ' SERVER PORT: ',
   ServerAPIVersion = ' API VERSION: ',

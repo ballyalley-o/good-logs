@@ -3,7 +3,7 @@ var Key;
     // @error keys
     Key["Connected"] = "CONNECTED \uD83D\uDFE2";
     Key["NotConnected"] = "NOT CONNECTED \uD83D\uDD34";
-    Key["Environment"] = "ENVIRONMENT";
+    Key["Environment"] = " ENVIRONMENT: ";
     Key["Production"] = "production";
     Key["Development"] = "development";
     // @logger - req
