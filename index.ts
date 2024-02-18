@@ -10,7 +10,7 @@ export interface IExpressController {
   (req: IRequestExtended, res: Response, next: NextFunction): void
 }
 
-interface ILogger {
+interface IGoodLog {
   /**
    * Custom log
    * @param message
@@ -107,7 +107,7 @@ declare module 'colors' {
   }
 }
 
-const logger: ILogger = {
+const goodlog: IGoodLog = {
   // @type - custom
   custom: (color: any, ...message: string[]) =>
     console.log(message.join('')[color]),
@@ -176,4 +176,4 @@ const logger: ILogger = {
   },
 }
 
-export default logger
+export default goodlog
