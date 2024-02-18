@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction, RequestHandler } from 'express'
+import { Request, Response, NextFunction } from 'express'
 
 export interface IRequestExtended extends Request {
   body: { [key: string]: string | undefined }
