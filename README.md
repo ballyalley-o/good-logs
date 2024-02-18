@@ -1,15 +1,15 @@
 > Module
 
-# Logger
+# Good Logs
 
 This module provides a custom logger for your application. It uses the 'colors' package to colorize console output for better readability.
 
 ## Usage
 
-Import the logger into your file:
+Import good-logs into your file:
 
 ```typescript
-import logger from './logger'
+import goodlog from 'good-logs'
 
 custom(color: any, ...message: string[]): Logs a custom message with the specified color.
 log(...message: string[]): Logs a message in yellow.
@@ -27,12 +27,18 @@ db(host: any, dbName: any, isConnected: boolean): Logs database details.
 ## Example
 
 ```typescript
-import logger from './logger'
+import goodlog from 'good-logs'
 
-logger.log('Hello, world!')
+goodlog.log('Hello, world!')
 
-logger.info('This is an informational message.')
+goodlog.info('This is an informational message.')
 ```
+
+<br/>
+
+## Contributing
+
+We welcome contributions from the community. Please refer to the [contributing guidelines](#)
 
 <br/>
 
