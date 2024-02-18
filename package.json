@@ -1,6 +1,6 @@
 {
   "name": "good-logs",
-  "description": "",
+  "description": "Good-logs provides a custom logging for your application. It uses the 'colors' package to colorize console output for better readability.",
   "version": "1.1.0",
   "main": "index.js",
   "type": "module",
