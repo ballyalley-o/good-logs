@@ -8,7 +8,7 @@ export interface IExpressController {
   (req: IRequestExtended, res: Response, next: NextFunction): void
 }
 
-interface ILogger {
+interface IGoodLog {
   /**
    * Custom log
    * @param message
