@@ -1,3 +1,8 @@
+/**
+ * Good Logs
+ * Copyright(c) 2024 Bally Lomibao
+ * MIT Licensed
+ */
 import { Request, Response, NextFunction } from 'express'
 
 export interface IRequestExtended extends Request {

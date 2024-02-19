@@ -12,14 +12,23 @@ Import good-logs into your file:
 import goodlog from 'good-logs'
 
 custom(color: any, ...message: string[]): Logs a custom message with the specified color.
+
 log(...message: string[]): Logs a message in yellow.
+
 info(...message: string[]): Logs an informational message in cyan.
+
 warn(...message: string[]): Logs a warning message in yellow.
+
 tbl(...message: any[]): Logs a table for arrays and objects.
+
 error(...message: string[]): Logs an error message in red.
+
 debug(...message: string[]): Logs a debug message in red.
+
 req(req, res): Logs request details.
+
 server(port: any, apiRoot: any, isProd: boolean, isConnected: boolean): Logs server details.
+
 db(host: any, dbName: any, isConnected: boolean): Logs database details.
 
 ```

@@ -1,11 +1,24 @@
+/**
+ * Good Logs
+ * Copyright(c) 2024 Bally Lomibao
+ * MIT Licensed
+ */
 import 'colors'
 
 import { Request, Response, NextFunction } from 'express'
 
+/**
+ * @interface IRequestExtended
+ * @extends Request
+ * @property {Object} body - body of the request
+ */
 export interface IRequestExtended extends Request {
   body: { [key: string]: string | undefined }
 }
 
+/**
+ * @interface IExpressController
+ */
 export interface IExpressController {
   (req: IRequestExtended, res: Response, next: NextFunction): void
 }
