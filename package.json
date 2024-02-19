@@ -10,21 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ballyalley-o/logger.git"
+    "url": "git+https://github.com/ballyalley-o/good-logs.git"
   },
   "author": "Bally Lomibao <bgoodies.dev@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ballyalley-o/logger/issues"
+    "url": "https://github.com/ballyalley-o/good-logs/issues"
   },
-  "homepage": "https://github.com/ballyalley-o/logger#readme",
+  "homepage": "https://github.com/ballyalley-o/good-logs#readme",
   "dependencies": {
     "@types/express": "^4.17.21",
     "colors": "^1.4.0",
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-plugin-import": "^2.29.1"
   }
 }
