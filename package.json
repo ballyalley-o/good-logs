@@ -1,7 +1,7 @@
 {
   "name": "good-logs",
   "description": "Good-logs provides a custom logging for your application. It uses the 'colors' package to colorize console output for better readability.",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
