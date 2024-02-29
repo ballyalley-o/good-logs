@@ -1,6 +1,17 @@
+[![Made with TypeScript](https://img.shields.io/badge/-Made_with_TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
+
+<br/>
+
 > Module
 
+
 # Good Logs
+
+<br/>
+
+Logging. Simplified.
+
+<br/>
 
 Good-logs provide a custom logging for your application. It uses the 'colors' package to colorize console output for better readability.
 
@@ -30,7 +41,7 @@ req(req, res): Logs request details.
 server(port: any, apiRoot: any, isProd: boolean, isConnected: boolean): Logs server details.
 
 db(host: any, dbName: any, isConnected: boolean): Logs database details.
-
+ V1.3.0
 ```
 
 ## Example
@@ -64,4 +75,10 @@ We are grateful to the authors of these packages for their work.
 
 ## License
 
-MIT License
+This module is open-source and available under the [MIT License](#).
+
+<br/>
+<br/>
+
+
+These definitions were written by [Bally Lomibao](https://github.com/ballyalley-o).
