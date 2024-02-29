@@ -1,5 +1,3 @@
-[![Made with TypeScript](https://img.shields.io/badge/-Made_with_TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
-
 <br/>
 
 > Module
