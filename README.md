@@ -1,9 +1,19 @@
 <br/>
 
-> Module
+<html>
 
+<div align="right">
+
+[![NPM](https://nodei.co/npm/good-logs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/good-logs/)
+
+</div>
+
+</html>
 
 # Good Logs
+
+[![npm version](https://badge.fury.io/js/good-logs.svg)](https://badge.fury.io/js/good-logs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <br/>
 
@@ -39,7 +49,7 @@ req(req, res): Logs request details.
 server(port: any, apiRoot: any, isProd: boolean, isConnected: boolean): Logs server details.
 
 db(host: any, dbName: any, isConnected: boolean): Logs database details.
- V1.3.0
+
 ```
 
 ## Example
@@ -51,6 +61,10 @@ goodlog.log('Hello, world!')
 
 goodlog.info('This is an informational message.')
 ```
+
+<br/>
+
+[![sample](https://i.ibb.co/zPhGhMh/good-log-screen-sample.png)](#)]
 
 <br/>
 
@@ -77,6 +91,5 @@ This module is open-source and available under the [MIT License](#).
 
 <br/>
 <br/>
-
 
 These definitions were written by [Bally Lomibao](https://github.com/ballyalley-o).
