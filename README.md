@@ -64,7 +64,11 @@ goodlog.info('This is an informational message.')
 
 <br/>
 
-[![sample](https://i.ibb.co/zPhGhMh/good-log-screen-sample.png)](#)]
+<div align="center">
+
+<img src='https://i.ibb.co/zPhGhMh/good-log-screen-sample.png' height='150'>
+
+</div>
 
 <br/>
 
