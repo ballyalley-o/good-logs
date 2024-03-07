@@ -9,8 +9,8 @@ require('colors')
 var Key
 ;(function (Key) {
   // @error keys
-  Key['Connected'] = 'CONNECTED \uD83D\uDFE2'
-  Key['NotConnected'] = 'NOT CONNECTED \uD83D\uDD34'
+  Key['Connected'] = 'CONNECTED'
+  Key['NotConnected'] = 'NOT CONNECTED'
   Key['Environment'] = ' ENVIRONMENT: '
   Key['Production'] = 'production'
   Key['Development'] = 'development'
