@@ -91,14 +91,14 @@ var goodlog = {
    *
    * @param port - server port
    * @param apiRoot - api version
-   * @param isProd - send the status of the server environment
+   * @param env - status of the server environment
    * @param isConnected - send the status of the server connection
    * @return void
    */
-  server: function (port, apiRoot, isProd, isConnected) {
+  server: function (port, apiRoot, env, isConnected) {
     console.log(Key.ServerPort.dim, port.yellow)
     console.log(Key.ServerAPIVersion.dim, apiRoot.yellow)
-    if (isProd) {
+    if (env === Key.Production) {
       console.log(Key.Environment.dim, Key.Production.blue.bold)
     } else {
       console.log(Key.Environment.dim, Key.Development.white.bold)

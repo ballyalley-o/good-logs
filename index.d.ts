@@ -9,6 +9,11 @@ interface RequestExtended extends Request {
   body: { [key: string]: string | undefined }
 }
 
+interface Env {
+  PRODUCTION: 'production'
+  DEVELOPMENT: 'development'
+}
+
 declare namespace Goodlog {
   /**
    * Custom color for logging
@@ -57,7 +62,7 @@ declare namespace Goodlog {
    *
    * @param port - server port
    * @param apiRoot - api version
-   * @param isProd - send the status of the server environment
+   * @param env - status of the server environment
    * @param isConnected - send the status of the server connection
    * @return void
    */
@@ -67,12 +72,7 @@ declare namespace Goodlog {
   //   isProd: boolean,
   //   isConnected: boolean
   // ): void
-  function server(
-    port: any,
-    apiRoot: string,
-    isProd: boolean,
-    isConnected: boolean
-  ): void
+  function server(port: any, apiRoot: string, env: Env, isConnected: boolean): void
 
   /**
    *
