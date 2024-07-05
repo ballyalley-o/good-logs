@@ -66,7 +66,7 @@ goodlog.info('This is an informational message.')
 
 <div align="center">
 
-<img src='https://i.ibb.co/zPhGhMh/good-log-screen-sample.png' height='150'>
+<img src='https://i.ibb.co/rZ2j5JX/good-logs-1-2-5.png' height='150'>
 
 </div>
 
