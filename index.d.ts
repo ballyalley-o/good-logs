@@ -12,6 +12,7 @@ interface RequestExtended extends Request {
 interface Env {
   PRODUCTION: 'production'
   DEVELOPMENT: 'development'
+  TEST: 'test'
 }
 
 declare namespace Goodlog {
