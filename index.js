@@ -22,6 +22,11 @@ var Key
   Key['ServerPort'] = ' SERVER PORT: '
   Key['ServerAPIVersion'] = ' API VERSION: '
   Key['ServerStatus'] = ' SERVER STATUS: '
+  // @logger - db
+  // @logger - database
+  Key['DBHost'] = ' DB HOST: '
+  Key['DBName'] = ' DB NAME: '
+  Key['DBStatus'] = ' DB STATUS: '
 })(Key || (Key = {}))
 var goodlog = {
   // @type - custom
@@ -111,14 +116,13 @@ var goodlog = {
   },
   // @preset - database
   db: function (host, dbName, isConnected) {
-    var DB_LOG = [
-      {
-        HOST: host,
-        DATABASE: dbName,
-        STATUS: isConnected ? Key.Connected : Key.NotConnected,
-      },
-    ]
-    console.table(DB_LOG)
+    console.log(Key.DBHost.dim, host.brightYellow)
+    console.log(Key.DBName.dim, dbName.brightMagenta)
+    if (isConnected) {
+      console.log(Key.DBStatus.dim, Key.Connected.green.bold)
+    } else {
+      console.log(Key.DBStatus.dim, Key.NotConnected.red.bold)
+    }
   },
 }
 
