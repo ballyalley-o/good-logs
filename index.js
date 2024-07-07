@@ -22,11 +22,15 @@ var Key
   Key['ServerPort'] = ' SERVER PORT: '
   Key['ServerAPIVersion'] = ' API VERSION: '
   Key['ServerStatus'] = ' SERVER STATUS: '
-  // @logger - db
   // @logger - database
   Key['DBHost'] = ' DB HOST: '
   Key['DBName'] = ' DB NAME: '
   Key['DBStatus'] = ' DB STATUS: '
+  // @error
+  Key['Error'] = ' ERROR: '
+  Key['ErrorCode'] = ' CODE: '
+  Key['Tag'] = ' TAG: '
+  Key['Target'] = ' FUNC_TARGET: '
 })(Key || (Key = {}))
 var goodlog = {
   // @type - custom
@@ -70,12 +74,21 @@ var goodlog = {
     return console.table(message)
   },
   // @type - error
-  error: function () {
-    var message = []
-    for (var _i = 0; _i < arguments.length; _i++) {
-      message[_i] = arguments[_i]
+  error: function (error, tag, target, ...args) {
+    if (tag === void 0) {
+      tag = ''
     }
-    return console.log(message.join('').red.bold)
+    if (target === void 0) {
+      target = ''
+    }
+    console.log('')
+    console.log(Key.Tag.dim, tag.red)
+    console.log(Key.Target.dim, target.brightRed)
+    console.log(Key.Error.dim, error && error)
+    if (args.length > 0) {
+      console.log('')
+      console.log(Key.Error.dim, args.join(' ').red)
+    }
   },
   // @type - debug
   debug: function () {

@@ -49,9 +49,13 @@ declare namespace Goodlog {
 
   /**
    * log message in type error
-   * @param message - message to log : type error
+   * @param error - error message to log : type error
+   * @param tag - tag of the error
+   * @param target - target of the error
+   * @param args - additional arguments
+   * @return void
    */
-  function error(...message: string[]): void
+  function error(error: any, tag: string, target: string, ...args: any[]): void
 
   /**
    * log message in type debug
@@ -73,7 +77,7 @@ declare namespace Goodlog {
   //   isProd: boolean,
   //   isConnected: boolean
   // ): void
-  function server(port: any, apiRoot: string, env: Env, isConnected: boolean): void
+  function server(port: any, apiRoot: string, env: string, isConnected: boolean): void
 
   /**
    *
