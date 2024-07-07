@@ -1,7 +1,7 @@
 {
   "name": "good-logs",
   "description": "Good-logs provides a custom logging for your application. It uses the 'colors' package to colorize console output for better readability. It also provides a middleware  logging for Express.js to log requests and responses.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "types": "index.d.ts",
   "main": "index.js",
   "scripts": {
